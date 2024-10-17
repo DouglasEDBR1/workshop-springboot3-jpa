@@ -16,9 +16,9 @@ public class UserResource {
 		User u = new User(1L, "Siegfried", "sieg@hotmail.com", "999999", "12345");
 		u = new User(1L, "Nina", "nina@hotmail.com", "888888", "12345");
 		u = new User(1L, "Michelle", "michelle@hotmail.com", "777777", "12345");
-		u = new User(1L, "Ana", "ana@hotmail.com", "666666", "12345");
-		u = new User(1L, "Ana", "ana@hotmail.com", "666666", "12345");
-		u = new User(1L, "Ana", "ana@hotmail.com", "666666", "12345");
+		u = new User(1L, "Jin", "jin@hotmail.com", "666666", "12345");
+		u = new User(1L, "Lee", "lee@hotmail.com", "666666", "12345");
+		u = new User(1L, "Ivy", "ivy@hotmail.com", "666666", "12345");
 		return ResponseEntity.ok().body(u);
 	}
 
